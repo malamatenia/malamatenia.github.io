@@ -20,6 +20,7 @@
 
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="icon" type="image/png" href="images/medieval-M.png">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
@@ -41,13 +42,14 @@
 
               <p style="text-align:center">
                 <a target="_blank" href="https://mailhide.io/e/mVxkPtm2">Email</a> &nbsp;/&nbsp;
+                <a href="pdfs/cv.pdf">CV</a> &nbsp;/&nbsp;
                 <a href="https://github.com/malamatenia">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=yM-IzdIAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/malamatenia-vlachou-efstathiou/"> LinkedIn </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_picture.jpg">
+              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_picture.jpg" class="hoverZoomLink circle-container">
             </td>
           </tr>
         </table>
@@ -124,7 +126,7 @@
 
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
+          {% if cat == 'Masters %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
               <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
