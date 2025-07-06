@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "An Interpretable Deep Learning Approach for Morphological Script Type Comparison"
-date: 2024-09-05 21:21:53 +00:00
+date: 2024-08-30 21:21:53 +00:00
 image: /images/Derolez_table.png
 categories: research
 authors: "Malamatenia Vlachou Efstathiou, Ioannis Siglidis, Dominique Stutzmann and Mathieu Aubry"
