@@ -33,7 +33,7 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:60%;vertical-align:middle">
               <h1>
-                Malamatenia (Matenia) Vlachou
+                Malamatenia (Matenia) Vlachou Efstathiou
               </h1>
               <p>I’m a third-year PhD student in Digital Palaeography at <a href="https://www.irht.cnrs.fr/fr/recherche/les-themes-et-sections/paleographie-latine">IRHT-CNRS</a> and <a href="https://imagine-lab.enpc.fr/">IMAGINE</a> (<a href="https://ecoledesponts.fr/">ENPC</a>) labs. My research is focused on Medieval Latin Script Characterisation and Analysis (project <a href="https://oriflamms.hypotheses.org/1885">CrEMe</a>). I’m supervised by <a href="https://www.irht.cnrs.fr/fr/annuaire/stutzmann-dominique">Dominique Stutzmann</a> and <a href="https://imagine.enpc.fr/~aubrym/">Mathieu Aubry</a>. </p>
               <p>Before my PhD, I completed a <a href="https://www.chartes.psl.eu/formations/masters/master-humanites-numeriques">Digital Humanities Master's degree </a> at <a href="https://www.chartes.psl.eu/">École nationale des chartes-PSL</a> (2021-2023) and a Master's degree in <a href="https://formations-lettres.sorbonne-universite.fr/fr/index/master-XB/arts-lettres-langues-ALL/master-lettres-lettres-classiques-MLETT1L_601.html">Classics</a> from <a href="https://formations-lettres.sorbonne-universite.fr/fr/index.html">Sorbonne Université</a>(2020-2021) with a specialization in Late Antiquity Latin Grammarians. </p>
@@ -47,6 +47,17 @@
                 <a href="https://scholar.google.com/citations?user=yM-IzdIAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/malamatenia-vlachou-efstathiou/"> LinkedIn </a>
               </p>
+
+              <table class="toc">
+  <tr>
+    <td>
+      <a href="#news">News</a> &nbsp;/&nbsp;
+      <a href="#research">Research</a> &nbsp;/&nbsp;
+      <a href="#seminars">Seminars/Presentations</a> &nbsp;/&nbsp;
+      <a href="phd-reflections.html">PhD Life</a>
+    </td>
+  </tr>
+</table>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
               <img style="width:100%;max-width:100%; border-radius:50%; overflow:hidden;" alt="profile photo" src="images/profile_picture.jpg">
@@ -54,10 +65,13 @@
           </tr>
         </table>
 
+
+
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
+              <h2 id="research">Research</h2>
               <p>
                 I am interested in palaeographical description and analysis, particularly for Late Medieval script types and hands, as well as data production for HTR models and transcription norms.
               </p>
@@ -121,7 +135,7 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
+              <h2>Master Thesis Projects</h2>
               <p>Aside from my PhD project, glossed grammatical manuscripts as well as grammatical theory in Late Antiquity remain at the center of my academic interests.
               </p>
             </td>
@@ -185,70 +199,41 @@
         <br>
         <br>
         <br>
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Other Projects</h2>
-              <p> These include coursework, side projects and unpublished research work. 
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+           <table id="seminars" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tr>
+              <td style="padding:2.5%;width:100%;vertical-align:middle">
+                <h2>Seminars / Workshops</h2>
+                <p>
+                  <ul>
+                    <li>"Digital Approaches to Latin Palaeography" – Workshop at ENPC (March 2025)</li>
+                    <li>"Transcribing Medieval Manuscripts with AI" – Seminar at Sorbonne Université (December 2024)</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+          </table>
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'research' and cat != 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table> --> 
+  <table id="news" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
+    <tr>
+      <td style="padding:2.5%;width:100%;vertical-align:middle">
+        <h2>News</h2>
+        <p><strong>May, 2025</strong><br>
+        Invited to give a workshop called "The Learnable Handwriter: An Interpretable Deep Learning Approach for Palaeographical Description and Analysis" at the Center of Digital Humanities of Antwerp University.</p>
+        <p><strong>Feb, 2025</strong><br>
+        Recipient of the Maison Française d'Oxford monthly scholarship for February 2025.</p>
+        <p><strong>Feb, 2024</strong><br>
+        Accepted to present at CIPL 2025 in Vienna, with a presentation on "Rapprocher analyse paléographique et computationnelle pour la description de mains".</p>
+        <p><strong>Jun, 2024</strong><br>
+        Accepted to IWCP 2024 for our work An Interpretable Deep Learning Approach for Morphological Script Type Analysis.</p>
+        <p><strong>Apr, 2024</strong><br>
+        Accepted to ICDAR 2024 for our work CATMuS Medieval.</p>
+        <p><strong>Mar, 2024</strong><br>
+        Organized the second edition of the Biblissima+ Cluster 3 “Artificial Intelligence for pattern and handwriting recognition” conference.</p>
+        <p><strong>Jun, 2023</strong><br>
+        Organized the Young Researcher Days in memoriam Louis Holtz at the École nationale des chartes.</p>
+      </td>
+    </tr>
+  </table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>

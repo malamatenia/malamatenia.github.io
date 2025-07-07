@@ -99,6 +99,23 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+table.toc {
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  text-align: center;
+  border-bottom: 1px solid #dddd;
+  border-top: 1px solid #dddd;
+  z-index: 100;
+  padding: 0.5em 0;
+}
+table.toc td {
+  padding: 0.5em;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
