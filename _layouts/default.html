@@ -113,10 +113,12 @@
             <td style="padding:2.5%;width:75%;vertical-align:middle">
                 <h3>{{post.title}}</h3>
                 <br>
-                {{post.authors}}
-                <br>
-                <em>{{post.venue}}</em>, {{ post.date | date: "%m-%Y" }}
-                <br>
+                             {{ post.authors }}
+              <br>
+              <em>{{ post.venue }}</em>
+              <br>
+              {{ post.date | date: "%m-%Y" }}
+              <br>
                 {% if post.arxiv %}
                 <a href="{{post.arxiv}}">arxiv</a> |
                 {% endif %}
@@ -175,8 +177,6 @@
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
 
@@ -282,7 +282,7 @@
                 Last updated: July 2025
               </p>
               <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>  with tweaks from <a style="font-size:small;" href="https://mathieuaubry.github.io/">Mathieu Aubry</a>
               </p>
             </td>
           </tr>
