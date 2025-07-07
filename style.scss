@@ -116,6 +116,33 @@ table.toc td {
   padding: 0.5em;
 }
 
+div.tocbar {
+  background-color: white;
+  width: 100%;
+  position: sticky; /* or fixed if you want always visible even when scrolled out of view */
+  top: 0;
+  text-align: center;
+  border-bottom: 1px solid #dddd;
+  border-top: 1px solid #dddd;
+  z-index: 1000;
+  padding: 0.5em 0;
+}
+
+/* Links inside the bar should match your existing a styles but not be blue */
+div.tocbar a {
+  color: #333; /* Or any muted color instead of your usual blue */
+  text-decoration: none;
+  margin: 0 1em;
+  font-weight: 700;
+}
+
+/* Hover color similar to your base link hover color */
+div.tocbar a:hover,
+div.tocbar a:focus {
+  color: #f09228;
+  text-decoration: none;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
