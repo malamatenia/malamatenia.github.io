@@ -48,19 +48,20 @@
                 <a href="https://www.linkedin.com/in/malamatenia-vlachou-efstathiou/"> LinkedIn </a>
               </p>
 
-              <div class="tocbar">
-                <a href="#news">News</a>
-                <a href="#research">Research</a>
-                <a href="#seminars">Seminars/Presentations</a>
-                <a href="phd-reflections.html">PhD Life</a>
-              </div>
-
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
               <img style="width:100%;max-width:100%; border-radius:50%; overflow:hidden;" alt="profile photo" src="images/profile_picture.jpg">
             </td>
           </tr>
         </table>
+
+                    <nav class="tocnav">
+              <a href="#news">News</a>
+              <a href="#research">Research</a>
+              <a href="#seminars">Seminars</a>
+              <a href="#presentations">Presentations</a>
+              <a href="phd-reflections.html">PhD Life</a>
+            </nav>
 
 
 
@@ -92,31 +93,31 @@
                 <em>{{post.venue}}</em>, {{ post.date | date: "%m-%Y" }}
                 <br>
                 {% if post.arxiv %}
-                <a href="{{post.arxiv}}">arxiv</a> /
+                <a href="{{post.arxiv}}">arxiv</a> |
                 {% endif %}
                 {% if post.paper %}
-                <a href="{{post.paper}}">paper</a> /
+                <a href="{{post.paper}}">paper</a> |
                 {% endif %}
                 {% if post.video %}
-                <a href="{{post.video}}">video</a> /
+                <a href="{{post.video}}">video</a> |
                 {% endif %}
                 {% if post.code %}
-                <a href="{{post.code}}">code</a> /
+                <a href="{{post.code}}">code</a> |
                 {% endif %}
                 {% if post.poster %}
-                <a href="{{post.poster}}">poster</a> /
+                <a href="{{post.poster}}">poster</a> |
                 {% endif %}
                 {% if post.slides %}
-                <a href="{{post.slides}}">slides</a> /
+                <a href="{{post.slides}}">slides</a> |
                 {% endif %}
                 {% if post.website %}
-                <a href="{{post.website}}">website</a> /
+                <a href="{{post.website}}">website</a> |
                 {% endif %}
                 {% if post.dataset %}
-                <a href="{{post.dataset}}">dataset</a> /
+                <a href="{{post.dataset}}">dataset</a> |
                 {% endif %}
                 {% if post.youtube %}
-                <a href="{{post.youtube}}">youtube</a> /
+                <a href="{{post.youtube}}">youtube</a> |
                 {% endif %}
                 <p></p>
                 {{ post.excerpt }}
@@ -156,34 +157,34 @@
 
               <br>
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              <a href="{{post.website}}">website</a> |
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              <a href="{{post.paper}}">paper</a> |
               {% endif %}
               {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              <a href="{{post.patent}}">patent</a> |
               {% endif %}
               {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              <a href="{{post.patent2}}">patent #2</a> |
               {% endif %}
               {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              <a href="{{post.patent3}}">patent #3</a> |
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              <a href="{{post.video}}">video</a> |
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              <a href="{{post.video2}}">video #2</a> |
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              <a href="{{post.code}}">code</a> |
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              <a href="{{post.poster}}">poster</a> |
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              <a href="{{post.slides}}">slides</a> |
               {% endif %}
               <p></p>
               {{ post.excerpt }}

@@ -116,31 +116,29 @@ table.toc td {
   padding: 0.5em;
 }
 
-div.tocbar {
+nav.tocnav {
+  display: flex;
+  justify-content: space-around; /* equal spacing */
+  align-items: center;
   background-color: white;
-  width: 100%;
-  position: sticky; /* or fixed if you want always visible even when scrolled out of view */
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
   top: 0;
-  text-align: center;
-  border-bottom: 1px solid #dddd;
-  border-top: 1px solid #dddd;
   z-index: 1000;
-  padding: 0.5em 0;
+  padding: 0.75em 0;
 }
 
-/* Links inside the bar should match your existing a styles but not be blue */
-div.tocbar a {
-  color: #333; /* Or any muted color instead of your usual blue */
+nav.tocnav a {
+  color: #333;           /* Not blue */
+  font-size: 18px;       /* Larger title-like text */
+  font-weight: 600;
   text-decoration: none;
-  margin: 0 1em;
-  font-weight: 700;
 }
 
-/* Hover color similar to your base link hover color */
-div.tocbar a:hover,
-div.tocbar a:focus {
+nav.tocnav a:hover,
+nav.tocnav a:focus {
   color: #f09228;
-  text-decoration: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
