@@ -1,0 +1,11 @@
+---
+layout: post
+title: "CATMuS Medieval: A multilingual large-scale cross-century dataset in Latin script for handwritten text recognition and beyond"
+date: 2024-09-04 21:21:53 +00:00
+image: tn/images/catmus_script_types.png
+categories: research
+authors: "Thibault Clérice, Ariane Pinche, Malamatenia Vlachou-Efstathiou, Alix Chagué et al."
+website: https://huggingface.co/datasets/CATMuS/medieval/
+paper: /pdfs/catmus.pdf
+venue: ICDAR 2024
+---
