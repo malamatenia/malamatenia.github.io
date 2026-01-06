@@ -7,5 +7,6 @@ categories: research
 authors: "Malamatenia Vlachou Efstathiou"
 dataset: https://zenodo.org/records/15282371
 code: https://github.com/malamatenia/palaeographic-variability-analysis-grandes-chroniques-fr-2813/tree/main/scripts
-venue: journal Scriptorium (paper under review, expected late 2025)
+venue: Scriptorium (forthcoming, expected 2026)
+website: https://malamatenia.github.io/palaeographic-variability-analysis-grandes-chroniques-fr-2813/
 ---

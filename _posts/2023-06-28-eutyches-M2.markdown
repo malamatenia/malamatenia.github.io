@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Éditer les manuscrits grammaticaux glosés : solutions numériques face aux défis paléographiques; Le cas de la tradition manuscrite glosée d’Eutychès grammaticus"
+date: 2023-06-28 21:21:53 +00:00
+image: tn/images/eutyches_gloses.png
+categories: Masters
+authors: "Malamatenia Vlachou Efstathiou"
+paper: /pdfs/eutyches.pdf
+code: https://github.com/malamatenia/Eutyches
+venue: ENC-PSL
+---
+
+Master's thesis (M2) in Digital Humanities at the École nationale des chartes (dir. Franck Cinato and Peter Stokes). Grade: 17/20.
