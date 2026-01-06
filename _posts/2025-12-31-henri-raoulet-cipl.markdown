@@ -6,5 +6,5 @@ image: tn/images/cipl2025.png
 categories: research
 authors: "Malamatenia Vlachou Efstathiou"
 dataset: https://zenodo.org/records/17183580
-venue: Brepols (expected in 2026, as part of the proceedings of CIPL 2025,held in Vienna 17-19/09/2025)
+venue: Brepols (expected in 2027, as part of the proceedings of CIPL 2025,held in Vienna 17-19/09/2025)
 ---

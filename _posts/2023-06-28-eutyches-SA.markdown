@@ -8,3 +8,4 @@ authors: "Malamatenia Vlachou Efstathiou"
 code: https://github.com/malamatenia/Eutyches
 venue: Studia Artistarum, Brepols (under review), as part of the proceedings of the journée in memoriam Louis Holtz, held at the ENC in June 2023 by the Chroniques Chartistes.
 ---
+in Studia Artistarum, Brepols (under review), as part of the proceedings of the journée in memoriam Louis Holtz, held at the ENC in June 2023 by the Chroniques Chartistes.
