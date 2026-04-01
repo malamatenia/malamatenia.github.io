@@ -6,6 +6,6 @@ image: tn/images/cipl2025.png
 categories: research
 authors: "Malamatenia Vlachou Efstathiou"
 dataset: https://zenodo.org/records/17183580
-webpage: https://malamatenia.github.io/CIPL2025-RaouletOrleans-HenriTrevou/ 
+website: https://malamatenia.github.io/CIPL2025-RaouletOrleans-HenriTrevou/ 
 venue: Brepols, under review (expected in 2027, as part of the proceedings of CIPL 2025,held in Vienna 17-19/09/2025)
 ---
