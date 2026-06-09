@@ -7,6 +7,6 @@ categories: research
 authors: "Malamatenia Vlachou Efstathiou, Raphael Baena, Dominique Stutzmann and Mathieu Aubry"
 website: https://malamatenia.github.io/morphology4metrology-analysis/
 paper: http://arxiv.org/abs/2606.09446
-code: https://github.com/malamatenia/learnable-handwriter
+code: https://github.com/malamatenia/morphology4metrology-analysis
 venue: IWCP 2024
 ---
