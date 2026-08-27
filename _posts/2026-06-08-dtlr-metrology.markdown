@@ -8,5 +8,6 @@ authors: "Malamatenia Vlachou Efstathiou, Raphael Baena, Dominique Stutzmann and
 website: https://malamatenia.github.io/morphology4metrology-analysis/
 paper: http://arxiv.org/abs/2606.09446
 code: https://github.com/malamatenia/morphology4metrology-analysis
-venue: IWCP 2024
+dataset: https://zenodo.org/records/18745702
+venue: ICDAR 2026
 ---
